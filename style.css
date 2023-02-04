@@ -1,21 +1,18 @@
-g[title]{
-    color: rgb(90, 228, 90);
+a:link {
+    color: blue;
 }
-p[title]{
-    color: rgb(149, 186, 223);
+a:visited {
+    color: green;
 }
-p[title = one]{
-color: rgb(122, 216, 34);
+a:hover {
+    text-decoration: underline;
+    color: red;
 }
-a[href^="http://"]{
-    color: rgb(70, 13, 43);
+a:active {
+    color: rgb(98, 0, 255);
 }
-a[href*=".html"] {
-    color:rgb(66, 170, 18);
-}
-p[title~=hi] {
-    color: rgb(34, 66, 23);
-}
-[class|="top-"]{
-    color: darkslateblue;
+
+a.one:hover{
+    color: red;
+    text-decoration-line: underline;
 }
