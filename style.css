@@ -1,30 +1,15 @@
-#block h1, #block h2, #block h3 {
+.aaa p{
+    color: rgb(0, 255, 255);
+    text-align:right;
+}
+#block h2{
     text-align: center;
-    color: rgb(36, 36, 187);
+    color: rgb(45, 45, 245);
 }
-#block h1 {
-    font-size: 27px;
-}
-#block h2 {
-    font-size: 26px;
-}
-#block h3 {
-    font-size: 15px;
-    color: rgb(99, 28, 28);
+.bbb{
+    color: rgb(146, 123, 192);
 }
 
-#block h1.one, #block h2.two{
-text-align: center;
-color: rgb(9, 46, 255);
+#ddd .xxx{
+    color: rgb(202, 223, 162);
 }
-#block h1.one{
-    font-size: 25px;
-}
-#block h2.two{
-    font-size: 20px;
-}
-
-.xxx, .kkk, .eee, h2.yyy, h2{
-    text-align: center; color:mediumslateblue;
-}
-
