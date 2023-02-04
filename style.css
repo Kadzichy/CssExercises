@@ -1,3 +1,21 @@
-main div *, main section *{
-    color: rgb(42, 30, 206);
+g[title]{
+    color: rgb(90, 228, 90);
+}
+p[title]{
+    color: rgb(149, 186, 223);
+}
+p[title = one]{
+color: rgb(122, 216, 34);
+}
+a[href^="http://"]{
+    color: rgb(70, 13, 43);
+}
+a[href*=".html"] {
+    color:rgb(66, 170, 18);
+}
+p[title~=hi] {
+    color: rgb(34, 66, 23);
+}
+[class|="top-"]{
+    color: darkslateblue;
 }
