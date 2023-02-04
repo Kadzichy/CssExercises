@@ -1,15 +1,8 @@
-.aaa p{
-    color: rgb(0, 255, 255);
-    text-align:right;
-}
-#block h2{
-    text-align: center;
-    color: rgb(45, 45, 245);
-}
-.bbb{
-    color: rgb(146, 123, 192);
-}
-
-#ddd .xxx{
-    color: rgb(202, 223, 162);
-}
+h2{
+    font-size: 20px;
+    color: blue;
+    }
+h2{
+    font-style: italic;
+    color:darkgoldenrod;
+    }
