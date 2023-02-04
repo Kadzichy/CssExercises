@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Выбор элемента по нескольким классам</title>
-</head>
-<body>
-    
-<div class="one">
-	One
-	
-</div>
-<p class="two">
-	Two
-</p>
-<p class="three">
-	Three
-</p>
-<p class="one two three">
-	One-two-three
-</p>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Несколько селекторов слитно</title>
+  </head>
+  <body>
+    <p class="bbb zzz">Some text</p>
+    <br>
+    <h2 class="bbb zzz">Some text</h2>
+    <br>
+    <h2 id="elem" class="bbb">Some text</h2>
+    <br>
+    <h2 id="elem1" class="bbb zzz">Some text</h2>
+    <br>
+    <h2 id="elem2" class="bbb">Some text</h2>
+    <br>
+    <h2 class="xxx bbb">Some text</h2>
+    <br>
+    <div>
+    <h2 class="yyy">Some text</h2>
+    </div>
+    <br>
+    <div class="bbb">
+    <h2 class="yyy">Some text</h2>
+    </div>
+    <br>
+    <div class="bbb">
+    <h2 class="yyy xxx">Some text</h2>
+    </div>
+    <br>
+    <div class="bbb yyy">
+    <h2 class="xxx">Some text</h2>
+    </div>
+    <br>
+  </body>
 </html>
