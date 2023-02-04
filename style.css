@@ -1,3 +1,27 @@
-.one.two.three{
-    color:rgb(219, 31, 87);
+.bbb.zzz {
+    color: rgb(0, 47, 255);
+}
+h2.bbb.zzz {
+    color:rgb(0, 255, 21);
+}
+#elem.bbb {
+    color:rgb(162, 231, 24);
+}
+#elem1.bbb.zzz {
+    color:rgb(255, 0, 55);
+}
+h2#elem2.bbb {
+    color:rgb(172, 11, 221);
+}
+h2.xxx {
+    color: rgb(147, 240, 128);
+}
+div .yyy {
+    color: rgb(78, 58, 26);
+}
+.bbb .yyy {
+    color: rgb(170, 1, 114);
+}
+.bbb .yyy.xxx {
+    color: rgb(41, 16, 100);
 }
