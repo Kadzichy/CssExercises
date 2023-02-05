@@ -7,15 +7,15 @@ p[title]{
 p[title = one]{
 color: rgb(122, 216, 34);
 }
-a[href^="http://"]{
-    color: rgb(70, 13, 43);
+
+a[href*="http://"]{
+    color:blue;
 }
+
 a[href*=".html"] {
-    color:rgb(66, 170, 18);
+    color:red;
 }
-p[title~=hi] {
-    color: rgb(34, 66, 23);
-}
-[class|="top-"]{
-    color: darkslateblue;
+
+.top-{
+    color:darkorange;
 }
