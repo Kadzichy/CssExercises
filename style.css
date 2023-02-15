@@ -1,5 +1,17 @@
-.one{
-    color: bisque;
-    border: 1px solid rgb(235, 0, 0);
-    margin: 10px;
+g:first-of-type{
+    color: rgb(250, 199, 71);
+}
+h1:last-of-type{
+    color: rgb(255, 0, 255);
+}
+
+p:nth-of-type(2){
+    color: rgb(182, 8, 8);
+}
+p:nth-last-of-type(2){
+color: rgb(255, 238, 0);
+}
+
+h1:only-of-type{
+    color: rgb(68, 0, 255);
 }
