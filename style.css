@@ -1,20 +1,5 @@
-a {
-	color: red;
-}
-a:hover {
-	text-decoration: none;
-}
-
-a.zzz {
-	color: rgb(255, 0, 234);
-}
-a.zzz:hover {
-	text-decoration: none;
-}
-
-.block a.zzz {
-	color: rgb(45, 11, 241);
-}
-.block a.zzz:hover {
-	text-decoration: none;
+.one{
+    color: bisque;
+    border: 1px solid rgb(235, 0, 0);
+    margin: 10px;
 }
