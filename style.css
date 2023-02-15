@@ -1,18 +1,20 @@
-a:link {
-    color: blue;
-}
-a:visited {
-    color: green;
+a {
+	color: red;
 }
 a:hover {
-    text-decoration: underline;
-    color: red;
-}
-a:active {
-    color: rgb(98, 0, 255);
+	text-decoration: none;
 }
 
-a.one:hover{
-    color: red;
-    text-decoration-line: underline;
+a.zzz {
+	color: rgb(255, 0, 234);
+}
+a.zzz:hover {
+	text-decoration: none;
+}
+
+.block a.zzz {
+	color: rgb(45, 11, 241);
+}
+.block a.zzz:hover {
+	text-decoration: none;
 }
