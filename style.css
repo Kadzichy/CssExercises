@@ -1,6 +1,4 @@
-li:not(.one){
-    color: rgb(136, 255, 0);
-}
-.one:not(:first-child, :last-child){
-    color: rgb(0, 81, 255);
-}
+.one{
+    width: 200px;
+    height: 200px;
+    background-color:mediumslateblue;
