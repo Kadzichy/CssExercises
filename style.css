@@ -1,4 +1,8 @@
 .one{
-    width: 200px;
-    height: 200px;
-    background-color:mediumslateblue;
+    border-style: ridge;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    width: 100px;
+    height: 140px;
+    text-align: center;
+}
