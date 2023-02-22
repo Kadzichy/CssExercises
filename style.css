@@ -1,8 +1,23 @@
-.one{
-    border-style: ridge;
-    border-color: rgb(0, 0, 0);
-    border-width: 5px;
-    width: 100px;
+.one,.two,.three,.four {
+    width: 190px;
     height: 140px;
     text-align: center;
+    border: 2px dotted blue;
+}
+.one {
+    border:2px solid red;
+}
+
+.two {
+    border: 2px dotted blue;
+
+}
+
+.three {
+    border: 3px dashed green;
+
+}
+
+.four {
+    border: 4px double orange;
 }
