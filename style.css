@@ -1,23 +1,18 @@
-.one,.two,.three,.four {
-    width: 190px;
+.one{
+    width: 100px;
     height: 140px;
     text-align: center;
-    border: 2px dotted blue;
+    border-left: 3px solid rgb(229, 255, 0);
+    border-top: 3px solid rgb(0, 0, 255);
+    border-bottom: 3px solid red;
+    border-right: 3px solid rgb(255, 174, 174);
 }
-.one {
-    border:2px solid red;
-}
-
 .two {
-    border: 2px dotted blue;
-
-}
-
-.three {
-    border: 3px dashed green;
-
-}
-
-.four {
-    border: 4px double orange;
+    width: 100px;
+    height: 140px;
+    text-align: center;
+    border-left: 3px solid red;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid rgb(179, 255, 0);
+    border-right: 3px dotted rgb(0, 0, 0);
 }
