@@ -1,41 +1,43 @@
-.one{
+.one {
     width: 200px;
-    border: 1px solid rgb(255, 0, 0);
+    border: 1px solid orange;
 }
-.two{
-    height: 100px;
-    border: 1px solid rgb(255, 230, 0);
-    margin-top: 45px;
-    margin-right: 45px;
-    margin-left: 45px;
-    margin-bottom: 120px;
+.two {
+    height: 80px;
+    border: 1px dashed blue;
+    margin: 20px 45px 100px 10px;
     text-align: center;
 }
 
 .one1 {
     width: 200px;
-    border: 1px solid rgb(55, 0, 255);
+    border: 1px solid orange;
 }
 .two1 {
-    height: 100px;
-    border: 1px solid rgb(0, 255, 0);
-    margin-top: 40px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
+    height: 50px;
+    border: 1px dashed blue;
+    margin: 30px 50px;
     text-align: center;
 }
 
 .one2 {
     width: 200px;
-    border: 1px solid rgb(132, 0, 255);
+    border: 1px solid orange;
 }
 .two2 {
-    height: 100px;
-    border: 1px solid rgb(255, 0, 140);
-    margin-top: 10px;
-    margin-right: 70px;
-    margin-left: 70px;
-    margin-bottom: 10px;
+    height: 50px;
+    border: 1px dashed blue;
+    margin: 100px 40px;
+    text-align: center;
+}
+
+.one3 {
+    width: 200px;
+    border: 1px solid orange;
+}
+.two3 {
+    height: 50px;
+    border: 1px dashed blue;
+    margin: 100px 30px 40px;
     text-align: center;
 }
