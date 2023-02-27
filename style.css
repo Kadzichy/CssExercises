@@ -1,11 +1,26 @@
-.lower {
-    list-style-type:lower-alpha;
+.one{
+    border: 2px dashed blue;
+    width: 150px;
+}
+.two{
+    height: 200px;
+    border: 2px solid orange;
+    margin: 40px;
+    text-align: center;
 }
 
-.greek {
-    list-style-type:lower-greek;
+.one1{
+    border: 2px dashed rgb(255, 0, 0);
+    width: 300px;
 }
-
-.upper {
-    list-style-type:upper-alpha;
+.two1{
+    border: 2px dashed rgb(76, 0, 255);
+    height: 200px;
+    margin: 20px;
+}
+.three{
+    height: 150px;
+    border: 2px solid rgb(163, 86, 86);
+    margin: 20px;
+    text-align: center;
 }
