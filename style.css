@@ -1,43 +1,21 @@
-.one {
-    width: 200px;
-    border: 1px solid orange;
+.one{
+    padding: 40px;
+    width: 300px;
+    border: 1px solid rgb(255, 238, 0);
+    text-align: justify;
 }
+
 .two {
-    height: 80px;
-    border: 1px dashed blue;
-    margin: 20px 45px 100px 10px;
-    text-align: center;
+    padding: 20px;
+    width: 500px;
+    border: 1px solid rgb(4, 0, 255);
+    text-align: justify;
 }
 
-.one1 {
-    width: 200px;
-    border: 1px solid orange;
-}
-.two1 {
-    height: 50px;
-    border: 1px dashed blue;
-    margin: 30px 50px;
-    text-align: center;
-}
-
-.one2 {
-    width: 200px;
-    border: 1px solid orange;
-}
-.two2 {
-    height: 50px;
-    border: 1px dashed blue;
-    margin: 100px 40px;
-    text-align: center;
-}
-
-.one3 {
-    width: 200px;
-    border: 1px solid orange;
-}
-.two3 {
-    height: 50px;
-    border: 1px dashed blue;
-    margin: 100px 30px 40px;
-    text-align: center;
+.three{   
+    padding: 10px;
+    margin: 40px;
+    width: 300px;
+    border: 1px solid rgb(255, 0, 0);
+    text-align: justify;
 }
