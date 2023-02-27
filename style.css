@@ -1,14 +1,6 @@
-#elem1 {
-    width: 100px;
-    height: 100px;
-    background: #ffae00;
-    margin-bottom: 20px;
-}
-
-#elem2 {
-    width: 100px;
-    height: 100px;
-    background: #ffae00;
-    border: 10px solid rgb(180, 90, 6);
-    box-sizing: border-box;
+div {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+	border: 10px solid rgb(255, 0, 0);
 }
