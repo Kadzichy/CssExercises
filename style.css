@@ -1,12 +1,6 @@
-h1 {
-    display: inline;
+div {
     width: 100px;
     height: 100px;
-    border: 1px solid rgb(0, 255, 191);
-}
-p {
-    display: block;
-    width: 100px;
-    height: 100px;
-    border: 1px solid rgb(0, 255, 255), 255);
+    border: 1px solid rgb(132, 0, 255);
+    display: inline-block;
 }
