@@ -1,38 +1,10 @@
-.parent {
-    padding: 10px;
-    border: 1px solid rgb(255, 0, 0);
-    text-align: center;
+.parent	{
+	display: inline-flex;
+	border: 1px solid red;
 }
 .child {
-    padding: 10px;
-    margin: 5px auto;
-    border: 1px solid rgb(0, 255, 0);
-    display: inline-block;
-}
-
-.parent1 {
-    padding: 10px 5px;
-    border: 1px solid rgb(255, 0, 0);
-    text-align: right;
-}
-.child1 {
-    padding: 10px;
-     margin: 5px;
-    border: 1px solid rgb(0, 255, 0);
-    display: inline-block;
-   
-}
-
-.parent2 {
-    padding: 10px;
-    border: 1px solid rgb(255, 0, 0);
-    text-align: right;
-}
-.child2 {
-    text-align: center;
-    width: 50;
-    padding: 10px;
-    border: 1px solid rgb(0, 255, 0);
-    display: inline-block;
-   
+	margin: 10px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid green;
 }
