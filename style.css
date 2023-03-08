@@ -1,6 +1,6 @@
 .parent	{
-	display: inline-flex;
-	border: 1px solid red;
+	display: flex;
+	justify-content: space-evenly;
 }
 .child {
 	margin: 10px;
