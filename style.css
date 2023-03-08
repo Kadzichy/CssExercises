@@ -1,10 +1,14 @@
-.parent	{
-	display: flex;
-	justify-content: space-evenly;
+#elem1 {
+	width: 200px;
+	height: 200px;
+	border: 1px solid red;
 }
-.child {
-	margin: 10px;
-	width: 50px;
-	height: 50px;
+#elem2 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	
+	width: 100px;
+	height: 100px;
 	border: 1px solid green;
 }
